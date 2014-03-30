@@ -13,9 +13,8 @@
 class xquartz::install {
   $version = $xquartz::version
 
-  $source = $::kernel ? {
+  $source = $::osfamily ? {
     'Darwin' => "http://xquartz.macosforge.org/downloads/SL/XQuartz-${version}.dmg",
-    default => fail("Unsupported Kernel: ${::kernel} operatingsystem: ${::operatingsystem}")
   }
 
   package {"xquartz-${version}":

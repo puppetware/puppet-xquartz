@@ -10,7 +10,7 @@ Supported Platforms:
 Usage
 -----
 
-Install XQuartz 2.7.4:
+Install XQuartz 2.7.5:
 
 ```
 class {'xquartz': }
@@ -26,7 +26,7 @@ class {'xquartz':
 
 A full list of available release of XQuartz are [here] [xquartz-releases].
 
-[xquartz-releases]: http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.4.dmg
+[xquartz-releases]: http://xquartz.macosforge.org/trac/wiki/Releases
 
 MIT License
 -----------
